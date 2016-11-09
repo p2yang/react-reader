@@ -1,0 +1,30 @@
+{
+  "name": "react-reader",
+  "version": "1.0.0",
+  "description": "A simple reader for simple life and better experience.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p2yang/react-reader.git"
+  },
+  "keywords": [
+    "react",
+    "reader",
+    "redux",
+    "es6",
+    "nodejs",
+    "express",
+    "ant-design"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p2yang/react-reader/issues"
+  },
+  "homepage": "https://github.com/p2yang/react-reader#readme"
+}

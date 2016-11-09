@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A simple reader for simple life and better experience.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-router": "^3.0.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.0",
@@ -14,7 +17,9 @@
     "webpack": "^1.13.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist",
+    "dev": "npm run build && npm start",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
